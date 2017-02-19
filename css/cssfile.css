@@ -1,0 +1,70 @@
+#all{
+
+	margin-left: 300px;
+	margin-right: 300px;
+}
+#head {
+	margin: 10px;
+	width: 1700px;
+	margin-top: 0px;
+	margin-left: 0px;
+	height: 200px;
+	float: top;
+	border-bottom: 3px solid black;
+}
+#menu {
+	width: 20%;
+	height: 550px;
+	float: left;
+	margin: :10px;
+	margin-top: 110px;
+	border: 3px solid black;
+}
+.contianer {
+	width: 70%;
+	height: 600px;
+	float: right;
+	margin: 10px;
+	margin-top: 100px;
+	border: 3px solid blue;
+}
+.picture {
+	width: 250px;
+	height: 250px;
+	margin: 30px;
+	border: 3px solid red;
+	position: relative;
+	float: left;
+	top: 2%;
+	left: 2%;
+}
+.menulist{
+	margin-top: 30px;
+	font-size: 20px;
+	font-family: "Arial black";
+}
+
+li {
+	clear: left; width: 100%; border-bottom-width: 1px !important; border-right-width: 0 !important; margin: 0 -1px .2em 0; 
+}
+
+  .ui-tabs-vertical { width: 55em; }
+  .ui-tabs-vertical .ui-tabs-nav { padding: .2em .1em .2em .2em; float: left; width: 12em; }
+  .ui-tabs-vertical .ui-tabs-nav li { clear: left; width: 100%; border-bottom-width: 1px !important; border-right-width: 0 !important; margin: 0 -1px .2em 0; }
+  .ui-tabs-vertical .ui-tabs-nav li a { display:block; }
+  .ui-tabs-vertical .ui-tabs-nav li.ui-tabs-active { padding-bottom: 0; padding-right: .1em; border-right-width: 1px; border-right-width: 1px; }
+  .ui-tabs-vertical .ui-tabs-panel { padding: 1em; float: right; width: 40em;}
+
+  #dialog label, #dialog input { display:block; }
+  #dialog label { margin-top: 0.5em; }
+  #dialog input, #dialog textarea { width: 95%; }
+  #tabs { margin-top: 1em; }
+  #tabs li .ui-icon-close { float: left; margin: 0.4em 0.2em 0 0; cursor: pointer; }
+  #add_tab { cursor: pointer; }
+
+  .img{
+  	height: 250px;
+  	width: 250px;
+  }
+
+  #draggable { width: 100px; height: 100px; padding: 0.5em; float: left; margin: 10px 10px 10px 0; z-index: 2000; }
